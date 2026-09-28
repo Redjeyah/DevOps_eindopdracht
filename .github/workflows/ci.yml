@@ -30,3 +30,4 @@ jobs:
 
       - name: Docker image bouwen
         run: docker build -t devops-basic-api:${{ github.sha }} .
+
