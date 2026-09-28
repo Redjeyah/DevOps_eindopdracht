@@ -5,12 +5,12 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return jsonify({"message": "DevOps API werkt!"})
+    return jsonify({"message": "DevOps Pipeline eindopdracht"})
 
 
 @app.route("/health")
 def health():
-    return jsonify({"status": "ok"})
+    return jsonify({"status": "goed"})
 
 
 if __name__ == "__main__":
